@@ -8,5 +8,5 @@ from app1 import views
 app_name='app1'
 urlpatterns=[
     path('', index),
-    path('upload/csv/$', views.upload_csv, name='upload_csv'),
+    path('upload/csv', views.upload_csv, name='upload_csv'),
 ]
